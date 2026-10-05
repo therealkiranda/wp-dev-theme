@@ -1,0 +1,1 @@
+<?php if(post_password_required()) return; if(have_comments()): ?><section class="comments-area"><h2><?php comments_number('No comments','One comment','% comments'); ?></h2><ol><?php wp_list_comments(); ?></ol></section><?php endif; ?><?php if(comments_open()) comment_form(); ?>

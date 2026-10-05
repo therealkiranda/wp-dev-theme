@@ -1,0 +1,6 @@
+<?php get_header(); ?>
+<header class="page-hero"><div class="narrow"><div class="eyebrow">01 / About</div><h1>About<br><em>the developer.</em></h1></div></header>
+<main id="content" class="article page-about"><div class="narrow">
+  <div class="profile-intro"><div><img class="page-portrait" src="<?php echo kk_profile_photo(); ?>" alt="Kiran Khadka — Full Stack Developer"></div><div><p class="article-lede"><?php echo esc_html(kk_get('kk_bio')); ?></p><p>I build web applications, mobile products and cloud systems. My work spans product interfaces, APIs, databases, deployment and the infrastructure that keeps software useful after launch.</p></div></div>
+  <div class="detail-grid"><div><div class="eyebrow">What I value</div></div><div><h2>Clarity over noise.</h2><p>Good software should feel intentional. That means understandable interfaces, maintainable code, sensible infrastructure and solutions that fit the actual problem rather than the trend of the moment.</p><p>Professional client work is kept private where confidentiality requires it. This website focuses on public work, technical writing and the parts of the craft I can responsibly share.</p></div></div>
+</div></main><?php get_footer(); ?>
